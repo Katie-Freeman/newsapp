@@ -12,8 +12,7 @@ const userRoutes = require("./routes/users");
 const indexRoutes = require("./routes/index");
 
 const PORT = process.env.PORT || 8080;
-const connection_string =
-  "postgres://zggfflrgbldoyz:448622141daf8564ba525031234f9d0cbf6ba0d279b6fb053b2903734f8d6e4c@ec2-44-196-250-191.compute-1.amazonaws.com:5432/dcpgvj8k96u11h?ssl=true";
+const connection_string = "postgres://localhost:5432/newsdb";
 
 const VIEWS_PATH = path.join(__dirname, "/views");
 
